@@ -14,15 +14,8 @@ class ViewController: UIViewController, BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        _ = LJFont.font_10
         setUI()
         
-        
-        
-    }
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let nav = BaseNavigationController(rootViewController: ViewController())
-        present(nav, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
