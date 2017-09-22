@@ -13,7 +13,6 @@ import SwiftyJSON
 import MBProgressHUD
 
 let baseURL = "http://www.window18.com/api/"
-//let baseURL = "http://139.196.31.161:8025/a/mobileapi/"
 
 struct APIPath {
     static let loginPath = "http://www.window18.com/api/MobileInterface.asmx/Login" // 登录
