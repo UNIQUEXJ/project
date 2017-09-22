@@ -7,10 +7,10 @@
 //
 
 protocol BaseCell {
-    func setUI()
+    func setBaseDefaults()
 }
 extension BaseCell {
-    func setUI() {
+    func setBaseDefaults() {
         guard let cell = self as? UITableViewCell else {
             return
         }

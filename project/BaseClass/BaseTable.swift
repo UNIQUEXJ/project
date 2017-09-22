@@ -7,11 +7,11 @@
 //
 
 protocol BaseTable {
-    func setUI()
+    func setBaseDefaults()
 }
 
 extension BaseTable {
-    func setUI() {
+    func setBaseDefaults() {
         guard let tb = self as? UITableView else {
             return
         }

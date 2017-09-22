@@ -7,10 +7,10 @@
 //
 
 protocol BaseTableVC {
-    func setUI()
+    func setBaseDefaults()
 }
 extension BaseTableVC {
-    func setUI() {
+    func setBaseDefaults() {
         guard let vc = self as? UITableViewController else {
             return
         }
