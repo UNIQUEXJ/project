@@ -12,6 +12,20 @@ import Reachability
 
 var lj_reachability: Reachability?
 extension Reachability {
+    
+    func lj_isNotNet() -> Bool {
+        guard let reachability = lj_reachability else {
+            return false
+        }
+        switch reachability.connection {
+        case .wifi, .cellular:
+            return false
+        case .none:
+            MBProgressHUD.lj_showText(text: "无网络连接,请检查网络设置")
+            return true
+        }
+    }
+    
     func lj_showStatus() {
         guard let reachability = lj_reachability else {
             return
