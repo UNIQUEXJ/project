@@ -25,8 +25,8 @@ target:project do
 #    pod 'PermissionScope' # 权限
 #    pod 'SwipeCellKit'
 #    pod 'Timepiece' # 时间处理库
-#    pod 'RxSwift'
-#    pod 'RxCocoa'
+    pod 'RxSwift', '~> 4.0.0-beta.0'
+    pod 'RxCocoa', '~> 4.0.0-beta.0'
+    pod 'ObjectMapper', '~> 3.0.0'
 #    pod 'RxDataSources'
-#    pod 'ObjectMapper'
 end
