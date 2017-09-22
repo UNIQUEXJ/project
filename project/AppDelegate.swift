@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Reachability
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -43,6 +44,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
+        lj_reachability?.stopNotifier()
+        NotificationCenter.default.removeObserver(self)
         if #available(iOS 10.0, *) {
             self.saveContext()
         } else {
@@ -104,13 +107,20 @@ extension AppDelegate {
         let dataTask = URLSession.shared.dataTask(with: URLRequest(url: url!))
         dataTask.resume()
     }
+    
     fileprivate func setNetworkNotifacation() {
-        lj_reachable = Reachability.forInternetConnection()
-        NotificationCenter.default.addObserver(self, selector: #selector(networkNotifacation), name: .reachabilityChanged, object: nil)
+        lj_reachability = Reachability()
+        NotificationCenter.default.addObserver(self, selector: #selector(networkNotifacation), name: .reachabilityChanged, object: lj_reachability)
+        do {
+            try lj_reachability?.startNotifier()
+        } catch {
+            print("无法开启网络通知")
+        }
     }
     @objc fileprivate func networkNotifacation() {
-        lj_reachable?.lj_showStatus()
+        lj_reachability?.lj_showStatus()
     }
+    
     fileprivate func setWindowRootView() {
         UIApplication.shared.isStatusBarHidden = false
         UIButton.appearance().isExclusiveTouch = true

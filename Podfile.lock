@@ -25,6 +25,7 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (4.4.0):
     - PromiseKit/CorePromise
+  - ReachabilitySwift (4.0-beta2)
   - SnapKit (4.0.0)
   - SwiftDate (4.4.1)
   - SwiftyJSON (4.0.0-alpha.1)
@@ -44,6 +45,7 @@ DEPENDENCIES:
   - PgyUpdate
   - pop (~> 1.0.10)
   - PromiseKit
+  - ReachabilitySwift (~> 4.0-beta2)
   - SnapKit (~> 4.0.0)
   - SwiftDate (~> 4.4.1)
   - SwiftyJSON (~> 4.0.0-alpha.1)
@@ -62,11 +64,12 @@ SPEC CHECKSUMS:
   PgyUpdate: bad71685b91bba4aa520b7fe29356a476700fdf2
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
+  ReachabilitySwift: d2e9cf75db8b2140bef42db5dafc6269d46cc137
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftDate: a70a534d4feed03b2a2b575e36bef82dc2286a8d
   SwiftyJSON: dc88934f85fb50b263b1632b9cbad3402505783e
   SWXMLHash: a4e70d15b73f825ce7b2f4ecb3dc1a3a4ff1cfb9
 
-PODFILE CHECKSUM: ff8a6598abfa4b00dcfe9635a7be8634a065b52c
+PODFILE CHECKSUM: 9f3ff7727231821e80d4cdeb3743d5b0612e09cc
 
 COCOAPODS: 1.3.1

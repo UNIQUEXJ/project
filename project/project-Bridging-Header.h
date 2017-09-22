@@ -4,6 +4,5 @@
 
 #import <CommonCrypto/CommonDigest.h>  // md5加密
 #import <PgyUpdate/PgyUpdateManager.h>
-#import "Reachability.h"
 #import "LJScrollLabel.h"
 #import "LJWeakTimer.h"

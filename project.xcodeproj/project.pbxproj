@@ -90,8 +90,6 @@
 		2DEB7C871F73658A004DB84D /* LJScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJScrollLabel.m; sourceTree = "<group>"; };
 		2DEB7C881F73658A004DB84D /* LJWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJWeakTimer.h; sourceTree = "<group>"; };
 		2DEB7C891F73658A004DB84D /* LJWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJWeakTimer.m; sourceTree = "<group>"; };
-		2DEB7C8F1F73658A004DB84D /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		2DEB7C901F73658A004DB84D /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		2DEB7C921F73699B004DB84D /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		2DEB7C941F7369C4004DB84D /* BaseTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableVC.swift; sourceTree = "<group>"; };
 		2DEB7C961F7369E6004DB84D /* BaseTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTable.swift; sourceTree = "<group>"; };
@@ -266,8 +264,6 @@
 				2DEB7C881F73658A004DB84D /* LJWeakTimer.h */,
 				2DEB7C891F73658A004DB84D /* LJWeakTimer.m */,
 				2DEB7C8A1F73658A004DB84D /* NetWithLocatScrollView */,
-				2DEB7C8F1F73658A004DB84D /* Reachability.h */,
-				2DEB7C901F73658A004DB84D /* Reachability.m */,
 				2DEB7CAA1F73800E004DB84D /* Structs.swift */,
 				2DEB7CAE1F7381CD004DB84D /* LetDatas.swift */,
 				2DEB7CB41F7382A4004DB84D /* Funcs.swift */,
@@ -493,6 +489,7 @@
 				"${BUILT_PRODUCTS_DIR}/MMTransition/MMTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
@@ -512,6 +509,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",

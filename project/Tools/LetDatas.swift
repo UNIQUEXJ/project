@@ -17,5 +17,3 @@ let lj_iphone6_plus = lj_screenHeight <= 736 && lj_screenHeight > 667
 let lj_iphoneX = lj_screenHeight <= 813 && lj_screenHeight > 736
 let lj_ipad = UIDevice.current.userInterfaceIdiom == .pad
 let lj_window = UIApplication.shared.keyWindow ?? UIWindow()
-
-var lj_reachable: Reachability?

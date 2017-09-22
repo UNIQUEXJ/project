@@ -8,25 +8,21 @@
 
 import MBProgressHUD
 
+import Reachability
+
+var lj_reachability: Reachability?
 extension Reachability {
-    var lj_isNotNet: Bool {
-        switch currentReachabilityStatus() {
-        case NotReachable:
-            return true
-        default:
-            return false
-        }
-    }
     func lj_showStatus() {
-        switch currentReachabilityStatus() {
-        case ReachableViaWiFi:
+        guard let reachability = lj_reachability else {
+            return
+        }
+        switch reachability.connection {
+        case .wifi:
             break;
-        case ReachableViaWWAN:
+        case .cellular:
             MBProgressHUD.lj_showText(text: "当前是运营商网络")
-        case NotReachable:
+        case .none:
             MBProgressHUD.lj_showText(text: "无网络连接,请检查网络设置")
-        default:
-            break;
         }
     }
 }
