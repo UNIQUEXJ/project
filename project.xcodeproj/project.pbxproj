@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0E37BB1F7A2A36005233AA /* LJCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0E37BA1F7A2A36005233AA /* LJCalendarVC.swift */; };
 		2DEB7C301F7363B4004DB84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7C2F1F7363B4004DB84D /* AppDelegate.swift */; };
 		2DEB7C321F7363B4004DB84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7C311F7363B4004DB84D /* ViewController.swift */; };
 		2DEB7C351F7363B4004DB84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEB7C331F7363B4004DB84D /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		13B2C7F98459B2DC62388832 /* Pods-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0E37BA1F7A2A36005233AA /* LJCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJCalendarVC.swift; sourceTree = "<group>"; };
 		2DEB7C2C1F7363B4004DB84D /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEB7C2F1F7363B4004DB84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEB7C311F7363B4004DB84D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				2DEB7CAC1F738191004DB84D /* LJNewFeatureController.swift */,
 				2DEB7CB01F738229004DB84D /* LJTabbarController.swift */,
 				2DEB7CC81F738537004DB84D /* LJNetTools.swift */,
+				2D0E37BA1F7A2A36005233AA /* LJCalendarVC.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/KMNavigationBarTransition/KMNavigationBarTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -504,6 +508,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMNavigationBarTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -560,6 +565,7 @@
 				2DEB7C991F737E85004DB84D /* BaseObject.swift in Sources */,
 				2DEB7CD51F738785004DB84D /* LJNormalPickView.swift in Sources */,
 				2DEB7CC71F7384EE004DB84D /* NSMutableAttributedSting+extension.swift in Sources */,
+				2D0E37BB1F7A2A36005233AA /* LJCalendarVC.swift in Sources */,
 				2DEB7CA11F737F03004DB84D /* Date+extension.swift in Sources */,
 				2DEB7CD31F738745004DB84D /* LJObjectification.swift in Sources */,
 				2DEB7CA31F737F58004DB84D /* String+extension.swift in Sources */,
