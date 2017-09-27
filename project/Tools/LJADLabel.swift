@@ -87,8 +87,7 @@ class LJADLabel: UIView {
         gcdTimer?.cancel()
         gcdTimer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.main)
         
-        gcdTimer?.schedule(wallDeadline: DispatchWallTime.now() + timeInterval * 0.5, repeating: timeInterval, leeway: DispatchTimeInterval.never)
-        //        gcdTimer?.scheduleRepeating(wallDeadline: DispatchWallTime.now() + timeInterval * 0.5, interval: timeInterval)
+        gcdTimer?.schedule(wallDeadline: DispatchWallTime.now() + timeInterval * 0.5, repeating: timeInterval)
         
         gcdTimer?.setEventHandler(handler: {[weak self] in
             self?.changeFrame()
