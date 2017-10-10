@@ -22,17 +22,17 @@ class ViewController: UIViewController, BaseVC {
         setBaseDefaults()
         setUI()
         userName.text = UserDefaults.standard.value(forKey: "userName") as? String ?? ""
-        let userNameObserable = userName.rx.text.shareReplay(1).map {
+        let userNameObserable = userName.rx.text.share(replay: 1).map {
             $0?.lj_isUsername
         }
-        let pwdObserable = password.rx.text.shareReplay(1).map {
+        let pwdObserable = password.rx.text.share(replay: 1).map {
             $0?.lj_isPasswrod
         }
-        userNameObserable.bind(to: userName.ex_validState).addDisposableTo(disposeBag)
-        pwdObserable.bind(to: password.ex_validState).addDisposableTo(disposeBag)
+        userNameObserable.bind(to: userName.ex_validState).disposed(by: disposeBag)
+        pwdObserable.bind(to: password.ex_validState).disposed(by: disposeBag)
         Observable.combineLatest(userNameObserable, pwdObserable, resultSelector: { (usernameBool, passwordBool) in
             usernameBool! && passwordBool!
-        }).bind(to: loginButton.ex_validState).addDisposableTo(disposeBag)
+        }).bind(to: loginButton.ex_validState).disposed(by: disposeBag)
     }
     // MARK: 忘记密码点击
     @objc fileprivate func forgetButtonClick() {
