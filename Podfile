@@ -17,7 +17,7 @@ target:project do
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'DZNEmptyDataSet'
     pod 'MMTransition' # 全屏界面转换
-    pod 'ReachabilitySwift', '~> 4.0-beta2'
+    pod 'ReachabilitySwift', '~> 4.1.0'
     #    pod 'Hero'
     #    pod 'CVCalendar'
     #    pod 'FSPagerView'  # 图片轮播,等各种形态

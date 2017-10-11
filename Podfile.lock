@@ -27,7 +27,7 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (4.4.0):
     - PromiseKit/CorePromise
-  - ReachabilitySwift (4.0-beta2)
+  - ReachabilitySwift (4.1.0)
   - RxCocoa (4.0.0-rc.0):
     - RxSwift (~> 4.0.0-rc.0)
   - RxSwift (4.0.0-rc.0)
@@ -52,7 +52,7 @@ DEPENDENCIES:
   - PgyUpdate
   - pop (~> 1.0.10)
   - PromiseKit
-  - ReachabilitySwift (~> 4.0-beta2)
+  - ReachabilitySwift (~> 4.1.0)
   - RxCocoa (~> 4.0.0-rc.0)
   - RxSwift (~> 4.0.0-rc.0)
   - SnapKit (~> 4.0.0)
@@ -75,7 +75,7 @@ SPEC CHECKSUMS:
   PgyUpdate: bad71685b91bba4aa520b7fe29356a476700fdf2
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
-  ReachabilitySwift: d2e9cf75db8b2140bef42db5dafc6269d46cc137
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   RxCocoa: 62457355be73369670fbdf053a79a491552b64ed
   RxSwift: 1dd09ceb11531c39adff4efe23556b1484e16967
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
@@ -83,6 +83,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: dc88934f85fb50b263b1632b9cbad3402505783e
   SWXMLHash: a4e70d15b73f825ce7b2f4ecb3dc1a3a4ff1cfb9
 
-PODFILE CHECKSUM: 2da964a94b2830ca347e632cbc43b082a61d4112
+PODFILE CHECKSUM: dd61650142ed3998922d91236b669e34e4606b8a
 
 COCOAPODS: 1.4.0.beta.1
