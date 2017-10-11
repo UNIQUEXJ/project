@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0D9E371F8DB18C00DFB10D /* LJScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0D9E361F8DB18C00DFB10D /* LJScrollLabel.swift */; };
 		2D0E37BB1F7A2A36005233AA /* LJCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0E37BA1F7A2A36005233AA /* LJCalendarVC.swift */; };
 		2DEB7C301F7363B4004DB84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7C2F1F7363B4004DB84D /* AppDelegate.swift */; };
 		2DEB7C321F7363B4004DB84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7C311F7363B4004DB84D /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		13B2C7F98459B2DC62388832 /* Pods-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0D9E361F8DB18C00DFB10D /* LJScrollLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJScrollLabel.swift; sourceTree = "<group>"; };
 		2D0E37BA1F7A2A36005233AA /* LJCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJCalendarVC.swift; sourceTree = "<group>"; };
 		2DEB7C2C1F7363B4004DB84D /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEB7C2F1F7363B4004DB84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,8 +90,6 @@
 		2DEB7C521F7363B4004DB84D /* projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectUITests.swift; sourceTree = "<group>"; };
 		2DEB7C541F7363B4004DB84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DEB7C601F73652C004DB84D /* project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "project-Bridging-Header.h"; sourceTree = "<group>"; };
-		2DEB7C861F73658A004DB84D /* LJScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJScrollLabel.h; sourceTree = "<group>"; };
-		2DEB7C871F73658A004DB84D /* LJScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJScrollLabel.m; sourceTree = "<group>"; };
 		2DEB7C881F73658A004DB84D /* LJWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJWeakTimer.h; sourceTree = "<group>"; };
 		2DEB7C891F73658A004DB84D /* LJWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJWeakTimer.m; sourceTree = "<group>"; };
 		2DEB7C921F73699B004DB84D /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -262,8 +262,7 @@
 		2DEB7C7D1F73658A004DB84D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				2DEB7C861F73658A004DB84D /* LJScrollLabel.h */,
-				2DEB7C871F73658A004DB84D /* LJScrollLabel.m */,
+				2D0D9E361F8DB18C00DFB10D /* LJScrollLabel.swift */,
 				2DEB7C881F73658A004DB84D /* LJWeakTimer.h */,
 				2DEB7C891F73658A004DB84D /* LJWeakTimer.m */,
 				2DEB7C8A1F73658A004DB84D /* NetWithLocatScrollView */,
@@ -557,6 +556,7 @@
 				2DEB7C381F7363B4004DB84D /* project.xcdatamodeld in Sources */,
 				2DEB7C301F7363B4004DB84D /* AppDelegate.swift in Sources */,
 				2DEB7CB51F7382A4004DB84D /* Funcs.swift in Sources */,
+				2D0D9E371F8DB18C00DFB10D /* LJScrollLabel.swift in Sources */,
 				2DEB7CCB1F7385C6004DB84D /* LJAnimationDemo.swift in Sources */,
 				2DEB7CB91F73833E004DB84D /* UIView+extension.swift in Sources */,
 				2DEB7CAD1F738191004DB84D /* LJNewFeatureController.swift in Sources */,
