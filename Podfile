@@ -2,13 +2,13 @@ platform :ios, ‘9.0’
 use_frameworks!
 target:project do
     pod 'PgyUpdate'
-    pod 'Kingfisher', '~> 4.1.0'
+    pod 'Kingfisher', '~> 4.2.0'
     pod 'SwiftyJSON', '~> 4.0.0-alpha.1'
     pod 'Alamofire', '~> 4.5.1'
-    pod 'MJRefresh', '~> 3.1.14'
+    pod 'MJRefresh', '~> 3.1.15'
     pod 'MJExtension', '~> 3.0.13'
     pod 'SnapKit', '~> 4.0.0'
-    pod 'SwiftDate', '~> 4.4.1'
+    pod 'SwiftDate', '~> 4.4.2'
     pod 'KMNavigationBarTransition'
     pod 'Macaw', '0.9.0'
     pod 'ChameleonFramework'
@@ -25,10 +25,10 @@ target:project do
     #    pod 'PermissionScope' # 权限
     #    pod 'SwipeCellKit'
     #    pod 'Timepiece' # 时间处理库
-    pod 'RxSwift', '~> 4.0.0-rc.0'
-    pod 'RxCocoa', '~> 4.0.0-rc.0'
+    pod 'RxSwift', '~> 4.0.0'
+    pod 'RxCocoa', '~> 4.0.0'
     pod 'ObjectMapper', '~> 3.0.0'
-    pod 'FSCalendar' # 📅日历库
+    pod 'FSCalendar', '~> 2.7.9' # 📅日历库
     #    pod 'RxDataSources'
 end
 

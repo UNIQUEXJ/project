@@ -9,6 +9,8 @@
 import MBProgressHUD
 import RxCocoa
 import RxSwift
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController, BaseVC {
     fileprivate lazy var userName = UITextField()
@@ -16,6 +18,7 @@ class ViewController: UIViewController, BaseVC {
     fileprivate lazy var loginButton = UIButton()
     
     fileprivate let disposeBag = DisposeBag()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -225,6 +228,20 @@ extension ViewController {
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         keybordEnd()
+//        let url = "http://192.168.31.110:8888"
+        let url = "http://127.0.0.1:8888"
+        
+        Alamofire.request(url + "/api/test", method: .get, parameters: ["id": "getId", "testGet": "testId"], headers: ["get": "test"]).responseJSON { (response) in
+            switch response.result {
+            case .failure(let error):
+                print(error as Any)
+            case .success(let data):
+                print(JSON(data) as Any)
+            }
+        }
+        Alamofire.request(url + "/api/home", method: .post, parameters: ["postId": "testPost"], headers: ["post": "test"]).responseJSON { (response) in
+            print(response.result.value as Any)
+        }
     }
     // MARK: 键盘退出,修改UI
     fileprivate func keybordEnd() {
