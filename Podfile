@@ -29,6 +29,6 @@ target:project do
     pod 'RxCocoa', '~> 4.0.0'
     pod 'ObjectMapper', '~> 3.0.0'
     pod 'FSCalendar', '~> 2.7.9' # 📅日历库
-    #    pod 'RxDataSources'
+    pod 'RxDataSources', '~> 3.0.1'
 end
 

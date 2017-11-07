@@ -89,6 +89,13 @@ class ViewController: UIViewController, BaseVC {
         keybordEnd()
         MBProgressHUD.lj_showText(text: "暂时无法注册,请联系管理员")
     }
+    override func viewDidAppear(_ animated: Bool) {
+        if #available(iOS 11.0, *) {
+            print(self.view.safeAreaInsets)
+        } else {
+            // Fallback on earlier versions
+        }
+    }
 }
 extension ViewController {
     fileprivate func setUI() {
