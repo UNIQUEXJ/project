@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3026E7952184BB28C900EEDCAFDC970E"
+               BlueprintIdentifier = "E7084783F6395CC38B406F87531FEC58"
                BuildableName = "Reachability.framework"
                BlueprintName = "ReachabilitySwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3026E7952184BB28C900EEDCAFDC970E"
+            BlueprintIdentifier = "E7084783F6395CC38B406F87531FEC58"
             BuildableName = "Reachability.framework"
             BlueprintName = "ReachabilitySwift"
             ReferencedContainer = "container:Pods.xcodeproj">
